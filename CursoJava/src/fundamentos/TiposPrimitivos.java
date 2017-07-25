@@ -24,5 +24,10 @@ public class TiposPrimitivos {
 		System.out.println(Integer.toBinaryString(s));
 		System.out.println(Integer.toBinaryString(i));
 		System.out.println(Long.toBinaryString(l));
+		
+		// Tipos primitivos reais (ponto flutuante)
+		float f = 3.1416f;
+		double d = 2.46;
+		System.out.printf("%.2f %.1f \n", f, d);
 	}
 }
