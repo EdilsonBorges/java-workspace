@@ -18,7 +18,11 @@ public class TiposPrimitivos {
 		byte b = 127;
 		short s = 32767;
 		int i = 2_147_483_647;
-		long l = 9_223_337_036_854_775_807L;
-		System.out.printf("%d %d %d %d", b, s, i, l);
+		long l = 9_223_372_036_854_775_807L;
+		System.out.printf("%d %d %d %d \n", b, s, i, l);
+		System.out.println(Integer.toBinaryString(b));
+		System.out.println(Integer.toBinaryString(s));
+		System.out.println(Integer.toBinaryString(i));
+		System.out.println(Long.toBinaryString(l));
 	}
 }
