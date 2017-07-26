@@ -10,5 +10,9 @@ public class ConversaoNumerica {
 		// Ex2 - conversão explícita
 		int i1 = (int) 7.9;
 		System.out.println(i1);
+		
+		// Ex3 - conversão implícita
+		int i2 = 'a';
+		System.out.println(i2);
 	}
 }
