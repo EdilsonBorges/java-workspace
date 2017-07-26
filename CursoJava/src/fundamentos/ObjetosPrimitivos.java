@@ -14,5 +14,9 @@ public class ObjetosPrimitivos {
 		Float f = 5.1f;
 		Double d = 6.1;
 		System.out.println(bo.toString().length());
+		
+		/* Com exceção do Character (char) e Integer (int),
+		os nomes dos objetos primitivos são os mesmos dos
+		tipos primitovos, mas com a primeira letra maiúscula.*/
 	}
 }
