@@ -14,5 +14,9 @@ public class ConversaoNumerica {
 		// Ex3 - conversão implícita
 		int i2 = 'a';
 		System.out.println(i2);
+		
+		// Ex4 - conversão implicita
+		double d = 1001;
+		System.out.println(d);
 	}
 }
