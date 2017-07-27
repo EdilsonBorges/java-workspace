@@ -11,5 +11,13 @@ public class OperadoresAritmeticos {
 		// Expressão interpretada da esquerda para direita
 		int soma = num1 + num2 + num3 + 6;
 		System.out.println(soma);
+		System.out.println(num1 - num2 - num3);
+		
+		// Atenção na precedência
+		System.out.println(num1 + num3 * num2 / 2);
+		System.out.println((num1 + num3) * num2 / 2);
+		
+		// Resto da divisão
+		System.out.println(10 % 3);
 	}
 }
