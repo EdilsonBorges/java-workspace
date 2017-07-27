@@ -13,7 +13,8 @@ public class ConversaoStringNumero {
 		// Converter string em double
 		double nota1 = Double.parseDouble(resposta1);
 		double nota2 = Double.parseDouble(resposta2);
+		double total = nota1 + nota2;
 		
-		System.out.println(nota1 + nota2);
+		System.out.println("media " + total/2);
 	}
 }
