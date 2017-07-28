@@ -12,6 +12,9 @@ public class OperadoresLogicos {
 		
 		System.out.println("Sorvete = " + comprouSorvete);
 		System.out.println("TV 50 = " + comprouTv50);
-		System.out.println("TV 32 = " + comprouTv32);		
+		System.out.println("TV 32 = " + comprouTv32);
+		
+		// Operador unário intruso
+		System.out.println("Fome = " + !comprouSorvete);
 	}
 }
