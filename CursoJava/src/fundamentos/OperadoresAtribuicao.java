@@ -10,5 +10,11 @@ public class OperadoresAtribuicao {
 		System.out.println(b); // 10
 		b *= 4;
 		System.out.println(b); // 40
+		b /= 2;
+		System.out.println(b); // 20
+		b -= 2;
+		System.out.println(b); // 18
+		b %= 2;
+		System.out.println(b); // 0
 	}
 }
