@@ -18,5 +18,8 @@ public class OperadoresUnarios {
 		// Complemento binário
 		System.out.println(Integer.toBinaryString(50)); 	// 110010
 		System.out.println(Integer.toBinaryString(~50)); 	// 11111111111111111111111111001101
+		
+		// Negação
+		System.out.println(!true);							// false
 	}
 }
