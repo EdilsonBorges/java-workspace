@@ -13,5 +13,10 @@ public class Ferramentas {
 	 * 
 	 * Java: a linguagem Java é compilada para um bytecode que é interpretado por uma
 	 * máquina virtual (Java Virtual Machine, mais conhecida pela sua abreviação JVM).
+	 * 
+	 * Javac: javac é o compilador primário da linguagem Java, incluído no
+	 * Java Development Kit (JDK) da Oracle Corporation. Apesar de existirem outros
+	 * compiladores, o criado pela Sun Microsystems é o mais usado.
+	 * 
 	 * */
 }
