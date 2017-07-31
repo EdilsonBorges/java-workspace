@@ -10,5 +10,8 @@ public class Ferramentas {
 	 * JDK (Java Development Kit): significa Kit de Desenvolvimento Java, e é um conjunto
 	 * 	de utilitários que permitem criar sistemas de software para a plataforma Java.
 	 * 	É composto por compilador e bibliotecas.
+	 * 
+	 * Java: a linguagem Java é compilada para um bytecode que é interpretado por uma
+	 * máquina virtual (Java Virtual Machine, mais conhecida pela sua abreviação JVM).
 	 * */
 }
