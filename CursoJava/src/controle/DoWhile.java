@@ -10,5 +10,13 @@ public class DoWhile {
 		double nota = 0;
 		int numeroDeNotas = 0;
 		
+		do {
+			nota = scanner.nextDouble();
+			if(nota <= 10 && nota >= 0){
+				somaDasNotas += nota;
+				numeroDeNotas++;
+			}
+		} while (nota != -1);
+		
 	}
 }
