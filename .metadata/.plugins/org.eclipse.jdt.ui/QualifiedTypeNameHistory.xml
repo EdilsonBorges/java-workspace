@@ -4,4 +4,6 @@
 <fullyQualifiedTypeName name="javax.print.attribute.standard.PrinterMessageFromOperator"/>
 <fullyQualifiedTypeName name="java.nio.file.ProviderNotFoundException"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
