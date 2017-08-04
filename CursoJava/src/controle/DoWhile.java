@@ -17,6 +17,8 @@ public class DoWhile {
 				numeroDeNotas++;
 			}
 		} while (nota != -1);
+		scanner.close();
+		System.out.printf("A média é %.2f", somaDasNotas / numeroDeNotas);
 		
 	}
 }
