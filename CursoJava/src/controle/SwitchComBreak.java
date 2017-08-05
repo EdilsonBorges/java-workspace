@@ -15,6 +15,10 @@ public class SwitchComBreak {
 		default: conceito = null; break;
 		}
 		
-		
+		if (conceito != null) {
+			System.out.println("Conceito " + conceito);
+		} else {
+			System.out.println("Nota inválida.");
+		}
 	}
 }
