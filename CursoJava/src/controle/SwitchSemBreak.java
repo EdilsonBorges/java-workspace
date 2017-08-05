@@ -1,11 +1,13 @@
 package controle;
 
-public class Switch {
+public class SwitchSemBreak {
 
 	public static void main(String[] args) {
 		String faixa = "amarela";
 		
 		switch (faixa.toLowerCase()) {
+		default:
+			System.out.println("Não sei nada");
 		case "preta":
 			System.out.println("Sei fazer o 1");
 		case "marrom":
