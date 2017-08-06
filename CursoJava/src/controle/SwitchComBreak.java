@@ -4,7 +4,7 @@ public class SwitchComBreak {
 
 	public static void main(String[] args) {
 		String conceito = "";
-		int nota = 4,6;
+		double nota = 4,6;
 
 		switch (nota) {
 		case 10:
