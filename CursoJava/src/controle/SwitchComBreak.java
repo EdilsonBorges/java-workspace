@@ -4,7 +4,7 @@ public class SwitchComBreak {
 
 	public static void main(String[] args) {
 		String conceito = "";
-		int nota = 9;
+		int nota = 4.6;
 
 		switch (nota) {
 		case 10:
@@ -36,7 +36,7 @@ public class SwitchComBreak {
 		if (conceito != null) {
 			System.out.println("Conceito " + conceito);
 		} else {
-			System.out.println("Nota inv·lida.");
+			System.out.println("Nota inv√°lida.");
 		}
 	}
 }
