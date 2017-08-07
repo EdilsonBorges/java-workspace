@@ -18,6 +18,16 @@ public class DoWhile {
 			}
 		} while (nota != -1);
 		scanner.close();
-		System.out.printf("A média é %.2f", somaDasNotas / numeroDeNotas);		
+		System.out.printf("A mÃ©dia Ã© %.2f", somaDasNotas / numeroDeNotas);		
 	}
+	do
+            {
+                Console.WriteLine("Dentro do loop");
+            } while (false);
+                decimal aumento = 250;
+            do
+                {
+                Console.WriteLine("O valor atual do aumento Ã© de: " + aumento);
+                aumento += 50;
+            } while (aumento < 500);
 }
