@@ -17,6 +17,16 @@ public class WhileDeterminado {
 		}
 		
 		scanner.close();
-		System.out.printf("A m�dia � %.2f", somaDasNotas / 3);
+		System.out.printf("A média é %.2f", somaDasNotas / 3);
 	}
+	
+	public class ExemploWhile {
+        public static void main(String args[]) {
+           int contador = 0;
+         while (contador < 50) {
+            System.out.println("Repetição nr: " + contador);
+            contador++;
+         }
+       }
+    }
 }
