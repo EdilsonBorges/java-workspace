@@ -9,25 +9,26 @@ public class DoWhile {
 		double somaDasNotas = 0;
 		double nota = 0;
 		int numeroDeNotas = 0;
-		
+
 		do {
 			nota = scanner.nextDouble();
-			if(nota <= 10 && nota >= 0){
+			if (nota <= 10 && nota >= 0) {
 				somaDasNotas += nota;
 				numeroDeNotas++;
 			}
 		} while (nota != -1);
 		scanner.close();
-		System.out.printf("A mÃ©dia Ã© %.2f", somaDasNotas / numeroDeNotas);		
+		System.out.printf("A média é %.2f ", somaDasNotas / numeroDeNotas);
+
+		do
+		{
+			System.out.println("Dentro do loop");
+		} while (false);
+		int aumento = 250;
+		do {
+			System.out.println("O valor atual do aumento é de: " + aumento);
+			aumento += 50;
+		} while (aumento < 500);
+
 	}
-	do
-            {
-                Console.WriteLine("Dentro do loop");
-            } while (false);
-                decimal aumento = 250;
-            do
-                {
-                Console.WriteLine("O valor atual do aumento Ã© de: " + aumento);
-                aumento += 50;
-            } while (aumento < 500);
 }

@@ -20,13 +20,11 @@ public class WhileDeterminado {
 		System.out.printf("A média é %.2f", somaDasNotas / 3);
 	}
 	
-	public class ExemploWhile {
-        public static void main(String args[]) {
-           int contador = 0;
-         while (contador < 50) {
-            System.out.println("Repetição nr: " + contador);
-            contador++;
-         }
-       }
-    }
+    public static void outroExemplo(String args[]) {
+       int contador = 0;
+     while (contador < 50) {
+        System.out.println("Repeti��o nr: " + contador);
+        contador++;
+     }
+   }
 }
