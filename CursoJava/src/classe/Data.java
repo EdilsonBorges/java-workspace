@@ -10,6 +10,10 @@ public class Data {
 
 	}
 
+	Data(int d, float m, int a) {
+		
+	}
+	
 	Data(int d, int m, int a) {
 		dia = d;
 		mes = m;
