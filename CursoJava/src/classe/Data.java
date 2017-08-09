@@ -6,6 +6,10 @@ public class Data {
 	int mes;
 	int ano;
 
+	Data() {
+
+	}
+
 	Data(int d, int m, int a) {
 		dia = d;
 		mes = m;
