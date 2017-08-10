@@ -9,5 +9,8 @@ public class CalculadoraTeste {
 		
 		calc.acrescentar(10);
 		System.out.println(calc.obterResultado());
+		
+		calc.limpar();
+		System.out.println(calc.obterResultado());
 	}
 }
