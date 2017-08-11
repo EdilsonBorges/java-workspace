@@ -3,16 +3,15 @@ package classe;
 public class Produto {
 	String nome;
 	double preco;
-	double desconto;
+	static double desconto;
 
 	Produto() {
 
 	}
 
-	Produto(String nome, double preco, double desconto) {
+	Produto(String nome, double preco) {
 		this.nome = nome;
 		this.preco = preco;
-		this.desconto = desconto;
 	}
 
 	double precoComDesconto() {
