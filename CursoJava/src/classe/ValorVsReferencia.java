@@ -21,11 +21,14 @@ public class ValorVsReferencia {
 	public static void main(String[] args) {
 		double numero = 1;
 		Produto produto = new Produto("Caneta", 1);
+		Produto produto2 = produto; // Variável produto2 apontando para o mesmo objeto na memória
+		produto2.nome = "Lapis"; // Essa atribuição de produto2 vai alterar o objeto produto, que também referenciado pela variável produto
 		
 		porValor(numero);
 		porReferencia(produto);
 		
 		System.out.println(numero);
 		System.out.println(produto.preco);
+		System.out.println(produto.nome);
 	}
 }
