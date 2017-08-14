@@ -7,11 +7,7 @@ public class Data {
 	int ano;
 
 	Data() {
-
-	}
-
-	Data(int d, float m, int a) {
-		
+		this(1, 1, 2017); // representa um dos construtores da sua própria classe
 	}
 	
 	Data(int dia, int mes, int ano) {
