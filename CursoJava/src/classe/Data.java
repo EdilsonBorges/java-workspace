@@ -11,7 +11,7 @@ public class Data {
 	}
 	
 	Data(int dia, int mes, int ano) {
-		this.dia = dia;
+		this.dia = dia; // this representa o objeto atual que está sendo executado naquele momento
 		this.mes = mes;
 		this.ano = ano;
 	}
