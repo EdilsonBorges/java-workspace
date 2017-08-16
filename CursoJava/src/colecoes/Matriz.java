@@ -21,5 +21,14 @@ public class Matriz {
 				qtdeNotasJoao++;
 			}
 		}
+		
+		double totalPedro = 0;
+		int qtdeNotasPedro = 0;
+		for (double[] notasParciais: notasPedro){
+			for(double nota: notasParciais){
+				totalPedro += nota;
+				qtdeNotasPedro++;
+			}
+		}
 	}
 }
