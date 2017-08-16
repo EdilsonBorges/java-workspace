@@ -30,5 +30,8 @@ public class Matriz {
 				qtdeNotasPedro++;
 			}
 		}
+		
+		System.out.println(totalJoao / qtdeNotasJoao);
+		System.out.println(totalPedro / qtdeNotasPedro);
 	}
 }
