@@ -12,5 +12,9 @@ public class ConjuntoBaguncado {
 		conjunto.add(1);
 		conjunto.add(3.14);
 		conjunto.add(false);
+		
+		System.out.println("Add..."); // Add...
+		System.out.println(conjunto.add(1)); // false
+		System.out.println(conjunto.add(10)); // true
 	}
 }
