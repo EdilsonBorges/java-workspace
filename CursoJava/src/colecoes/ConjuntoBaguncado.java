@@ -22,5 +22,9 @@ public class ConjuntoBaguncado {
 		System.out.println(conjunto.remove("a")); // false
 		System.out.println(conjunto.remove('a')); // true
 		System.out.println("Size..." + conjunto.size()); // Size...5
+		
+		System.out.println("Contains..."); // Contains...
+		System.out.println(conjunto.contains('a')); // false
+		System.out.println(conjunto.contains(1)); // true
 	}
 }
