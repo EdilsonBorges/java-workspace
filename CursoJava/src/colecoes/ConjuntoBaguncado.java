@@ -16,9 +16,11 @@ public class ConjuntoBaguncado {
 		System.out.println("Add..."); // Add...
 		System.out.println(conjunto.add(1)); // false
 		System.out.println(conjunto.add(10)); // true
-		System.out.println("Size..." + conjunto.size());
+		System.out.println("Size..." + conjunto.size()); // Size...6
 		
-		System.out.println("Remove...");
-		System.out.println(conjunto.remove("a"));
+		System.out.println("Remove..."); // Remove...
+		System.out.println(conjunto.remove("a")); // false
+		System.out.println(conjunto.remove('a')); // true
+		System.out.println("Size..." + conjunto.size()); // Size...5
 	}
 }
