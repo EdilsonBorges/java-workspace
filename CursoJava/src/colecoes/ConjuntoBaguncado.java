@@ -33,5 +33,8 @@ public class ConjuntoBaguncado {
 		nums.add(3);
 		conjunto.addAll(nums);
 		System.out.println(conjunto); // [1, 2, 3, 3.14, false, 10, Texto]
+		conjunto.retainAll(nums);
+		System.out.println(conjunto); // [1, 2, 3]
+		
 	}
 }
