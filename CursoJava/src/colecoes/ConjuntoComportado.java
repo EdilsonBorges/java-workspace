@@ -1,12 +1,12 @@
 package colecoes;
 
-import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class ConjuntoComportado {
 
 	public static void main(String[] args) {
-		Set<String> aprovados = new LinkedHashSet<>();
+		Set<String> aprovados = new TreeSet<>();
 		aprovados.add("João");
 		aprovados.add("Pedro");
 		aprovados.add("Maria");
@@ -16,6 +16,7 @@ public class ConjuntoComportado {
 			System.out.println(nome);
 					// HashSet: João Rafael Pedro Maria - sem ordem nenhuma
 					// LinkedHashSet: João Pedro Maria Rafael - com ordem de inserção
+					// TreeSet: João Maria Pedro Rafael - com ordem alfabética
 
 		}
 	}
