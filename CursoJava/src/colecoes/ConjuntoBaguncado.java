@@ -26,5 +26,12 @@ public class ConjuntoBaguncado {
 		System.out.println("Contains..."); // Contains...
 		System.out.println(conjunto.contains('a')); // false
 		System.out.println(conjunto.contains(1)); // true
+		
+		Set nums = new HashSet();
+		nums.add(1);
+		nums.add(2);
+		nums.add(3);
+		conjunto.addAll(nums);
+		System.out.println(conjunto); // [1, 2, 3, 3.14, false, 10, Texto]
 	}
 }
