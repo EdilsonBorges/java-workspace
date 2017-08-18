@@ -16,5 +16,12 @@ public class Lista {
 		
 		System.out.println(aprovados.add("Maria")); // Mesmo conteúdo, mas registros diferentes
 		System.out.println(aprovados.size()); // 5
+		
+		System.out.println(aprovados.remove("maria")); // false
+		System.out.println(aprovados.remove("Maria")); // true, mas apenas 1 registro removido
+		
+		for(String nome: aprovados){
+			System.out.println(nome);
+		}
 	}
 }
