@@ -15,5 +15,8 @@ public class Fila {
 		System.out.println("Peek/Element..."); // não removem elementos da lista, apenas os mostram
 		System.out.println(fila.peek());
 		System.out.println(fila.element());
+		
+		System.out.println("Poll...");
+		System.out.println(fila.poll()); // Mostra o registro "Maria" e remove
 	}
 }
