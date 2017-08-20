@@ -11,5 +11,8 @@ public class Fila {
 		fila.offer("Maria"); // caso não consiga adicionar, o retorno é um boolean false
 		fila.offer("João");
 		fila.add("Pedro"); // caso não consiga adicionar, o retorno é um erro
+		
+		System.out.println("Peek...");
+		System.out.println(fila.peek());
 	}
 }
