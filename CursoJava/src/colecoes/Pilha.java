@@ -1,11 +1,12 @@
 package colecoes;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class Pilha {
 
 	public static void main(String[] args) {
-		Stack<String> pilha = new Stack<>();
+		Deque<String> pilha = new ArrayDeque<>();
 		
 		pilha.push("O Pequeno Príncipe");
 		pilha.push("O Hobbit");
