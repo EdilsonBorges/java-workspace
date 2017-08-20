@@ -12,7 +12,8 @@ public class Fila {
 		fila.offer("João");
 		fila.add("Pedro"); // caso não consiga adicionar, o retorno é um erro
 		
-		System.out.println("Peek...");
+		System.out.println("Peek/Element..."); // não removem elementos da lista, apenas os mostram
 		System.out.println(fila.peek());
+		System.out.println(fila.element());
 	}
 }
