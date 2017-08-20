@@ -20,7 +20,7 @@ public class Fila {
 		System.out.println(fila.poll()); // Mostra o registro "Maria" e remove
 		System.out.println(fila.remove());
 		System.out.println(fila.poll());
-		System.out.println(fila.poll());
-		System.out.println(fila.remove());
+		System.out.println(fila.poll()); // Retorna null caso não haja nada na lista
+		System.out.println(fila.remove()); // Retorna erro casa não haja nada na lista
 	}
 }
