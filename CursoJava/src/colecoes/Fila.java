@@ -16,7 +16,11 @@ public class Fila {
 		System.out.println(fila.peek());
 		System.out.println(fila.element());
 		
-		System.out.println("Poll...");
+		System.out.println("Poll/Remove...");
 		System.out.println(fila.poll()); // Mostra o registro "Maria" e remove
+		System.out.println(fila.remove());
+		System.out.println(fila.poll());
+		System.out.println(fila.poll());
+		System.out.println(fila.remove());
 	}
 }
