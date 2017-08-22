@@ -22,9 +22,14 @@ public class Mapa {
 		System.out.println(aprovados.containsKey(4));
 		System.out.println(aprovados.containsValue("Bia"));
 		
-		System.out.println("Chavess...");
+		System.out.println("Chaves...");
 		for(Integer codigo: aprovados.keySet()){
 			System.out.println(codigo);
 		}
+		System.out.println("Valores...");
+		for(String nome: aprovados.values()){
+			System.out.println(nome);
+		}
+		
 	}
 }
