@@ -15,5 +15,8 @@ public class Mapa {
 		System.out.println(aprovados.keySet());
 		System.out.println(aprovados.values());
 		System.out.println(aprovados.entrySet());
+		
+		aprovados.put(3, "Beatriz");
+		System.out.println(aprovados.get(3));
 	}
 }
