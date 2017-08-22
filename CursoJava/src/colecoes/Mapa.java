@@ -7,5 +7,11 @@ public class Mapa {
 
 	public static void main(String[] args) {
 		Map<Integer, String> aprovados = new HashMap<>();
+		aprovados.put(1, "Pedro");
+		aprovados.put(2, "Ana");
+		aprovados.put(3, "Bia");
+		aprovados.put(4, "Carlos");
+		
+		System.out.println(aprovados.keySet());
 	}
 }
