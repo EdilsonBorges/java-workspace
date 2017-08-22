@@ -18,5 +18,8 @@ public class Mapa {
 		
 		aprovados.put(3, "Beatriz");
 		System.out.println(aprovados.get(3));
+		
+		System.out.println(aprovados.containsKey(4));
+		System.out.println(aprovados.containsValue("Bia"));
 	}
 }
