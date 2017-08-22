@@ -13,5 +13,7 @@ public class Mapa {
 		aprovados.put(4, "Carlos");
 		
 		System.out.println(aprovados.keySet());
+		System.out.println(aprovados.values());
+		System.out.println(aprovados.entrySet());
 	}
 }
