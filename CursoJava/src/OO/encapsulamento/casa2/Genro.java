@@ -1,6 +1,5 @@
 package OO.encapsulamento.casa2;
 
-import OO.encapsulamento.casa1.Sogra;
 import OO.encapsulamento.casa1.Sogro;
 
 public class Genro {
@@ -17,7 +16,7 @@ public class Genro {
 		Sogro sograo = new Sogro();
 		System.out.println(sograo.gostaDeCerveja); // Variável pública pode ser acessada por todos
 		
-		Sogra sogrinha = new Sogra();
-		System.out.println(sogrinha.segredoDeFamilia); // Variável protected só consegue ser acessada se estiver no mesmo pacote ou se recebesse essa informação  por herança
+//		Sogra sogrinha = new Sogra();
+//		System.out.println(sogrinha.segredoDeFamilia); // Variável protected só consegue ser acessada se estiver no mesmo pacote ou se recebesse essa informação  por herança
 	}
 }
