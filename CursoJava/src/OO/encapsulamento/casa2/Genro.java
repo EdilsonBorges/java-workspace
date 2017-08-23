@@ -1,5 +1,7 @@
 package OO.encapsulamento.casa2;
 
+import OO.encapsulamento.casa1.Sogro;
+
 public class Genro {
 
 	private String segredo = "Minha sogra fala demais!";
@@ -10,5 +12,8 @@ public class Genro {
 		
 		Filha meuAmor = new Filha();
 		System.out.println(meuAmor.segredoDoCasal); // Variável default pode ser acessada estando no mesmo pacote
+		
+		Sogro sograo = new Sogro();
+		System.out.println(sograo.gostaDeCerveja);
 	}
 }
