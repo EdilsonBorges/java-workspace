@@ -2,14 +2,25 @@ package OO.heranca;
 
 public class Carro {
 
-	protected int VELOCIDADE_MAXIMA = 200; // na prática o atributo seria uma constante
+	protected int VELOCIDADE_MAXIMA = 200; // na prática o atributo seria uma
+											// constante
 	private int velocidadeAtual = 0;
-	
-	protected final void acelerarMais(int velocidade){ // método final não pode ser modificado pelas classes filhas 
-		if(velocidadeAtual + velocidade > VELOCIDADE_MAXIMA){
+
+	protected final void acelerarMais(int velocidade) { // método final não pode
+														// ser modificado pelas
+														// classes filhas
+		if (velocidadeAtual + velocidade > VELOCIDADE_MAXIMA) {
 			velocidadeAtual = VELOCIDADE_MAXIMA;
 		} else {
 			velocidadeAtual += velocidade;
+		}
+	}
+
+	protected final void frearMais(int velocidade) {
+		if (velocidadeAtual - velocidade < 0) {
+			velocidadeAtual = 0;
+		} else {
+			velocidadeAtual -= velocidade;
 		}
 	}
 }
