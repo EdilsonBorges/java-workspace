@@ -23,4 +23,16 @@ public class Carro {
 			velocidadeAtual -= velocidade;
 		}
 	}
+
+	public void acelerar() {
+		acelerarMais(5);
+	}
+
+	public void frear() {
+		frearMais(5);
+	}
+
+	public int getVelocidadeAtual() {
+		return velocidadeAtual;
+	}
 }
