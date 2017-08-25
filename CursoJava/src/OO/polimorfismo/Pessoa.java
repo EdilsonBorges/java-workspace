@@ -14,19 +14,29 @@ public class Pessoa {
 		return peso;
 	}
 
-	/*
-	 * ### Polimorfismo estático / Sobrecarga de método ###
-	 */
-	public void comer(Arroz arroz) {
-		this.peso += arroz.getPeso();
-	}
+	// /*
+	// * ### Polimorfismo estático / Sobrecarga de método ###
+	// */
+	// public void comer(Arroz arroz) {
+	// this.peso += arroz.getPeso();
+	// }
+	//
+	// public void comer(Feijao feijao) {
+	// this.peso += feijao.getPeso();
+	// }
+	//
+	// public void comer(Sorvete sorvete) {
+	// this.peso += sorvete.getPeso();
+	// }
+	// /*
+	// * ####################################################
+	// */
 
-	public void comer(Feijao feijao) {
-		this.peso += feijao.getPeso();
-	}
-	
-	public void comer(Sorvete sorvete) {
-		this.peso += sorvete.getPeso();
+	/*
+	 * ### Polimorfismo dinâmico ###
+	 */
+	public void comer(Comida comida) {
+		this.peso += comida.getPeso();
 	}
 	/*
 	 * ####################################################
