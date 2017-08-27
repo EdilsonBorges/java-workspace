@@ -13,5 +13,11 @@ public class ExplorandoString {
 		System.out.println(nome.indexOf('d'));
 		System.out.println(nome.charAt(6));
 		System.out.println(nome.equalsIgnoreCase("leonardo"));
+		System.out.println(nome.startsWith("Leo"));
+		System.out.println(nome.isEmpty());
+		System.out.println(nome.concat(" é legal!").concat("!"));
+		
+		// A string é imutável
+		System.out.println(nome);
 	}
 }
