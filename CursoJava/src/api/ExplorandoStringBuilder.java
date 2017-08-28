@@ -9,7 +9,10 @@ public class ExplorandoStringBuilder {
 		sb.append(",").append("Pedro");
 		
 		// É mutável
-		sb.reverse();
+		// sb.reverse();
+		
+		System.out.println(sb.toString());
+		System.out.println(sb.substring(1, 3));
 		System.out.println(sb.toString());
 	}
 }
