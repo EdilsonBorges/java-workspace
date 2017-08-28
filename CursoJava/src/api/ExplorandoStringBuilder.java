@@ -7,5 +7,9 @@ public class ExplorandoStringBuilder {
 		sb.append("João");
 		sb.append(",").append("Maria");
 		sb.append(",").append("Pedro");
+		
+		// É mutável
+		sb.reverse();
+		System.out.println(sb.toString());
 	}
 }
