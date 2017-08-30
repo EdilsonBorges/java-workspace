@@ -3,7 +3,8 @@ package avancado;
 public class Recursividade {
 
 	public static void main(String[] args) {
-
+		System.out.println(fatorialFor(3));
+		System.out.println(fatorial(5));
 	}
 
 	public static int fatorialFor(int numero) {
