@@ -7,17 +7,17 @@ import java.awt.Color;
 public class Sierpinski extends GraphicsProgram {
 
     public void run() {
-        GRect box = new GRect(20, 20, 242, 242);
+        GRect box = new GRect(40, 40, 242, 342);
         box.setFilled(true);
         add(box);
-        drawGasket(20, 20, 243);
+        drawGasket(40, 40, 343);
     }
 
     private void drawGasket(int x, int y, int side) {
         int sub = side / 3;
         GRect box = new GRect(x + sub, y + sub, sub - 1, sub - 1);
         box.setFilled(true);
-        box.setColor(Color.WHITE);
+        box.setColor(Color.GRAY);
         add(box);
 
         if (sub >= 3) {
