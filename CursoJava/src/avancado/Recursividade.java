@@ -22,4 +22,15 @@ public class Recursividade {
 
 		return numero * fatorial(numero - 1);
 	}
+
+//	Mais exemplos de recursividade: fractal
+//	void fractal(int x, y, r) {
+//		 if(r <= 0) { return; }
+//		 fractal(x-r, y+r, r / 2);
+//		 fractal (x+r, y+r, r / 2);
+//		 fractal (x-r, y-r, r / 2);
+//		 fractal (x+r, y-r, r / 2);
+//		 quadrado(x, y, r);
+//	}
+	
 }
